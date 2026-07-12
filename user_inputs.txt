@@ -1,0 +1,11 @@
+Transformational AI: Analyzing Ecommerce Large Datasets for Machine Learning
+Completed by: Justin Kumpe
+—————————————-
+
+Question 1: The reviews DataFrame includes columns like rating, title, text, images, asin, parent_asin, user_id, timestamp, helpful_vote, and verified_purchase. Ratings look numeric, text fields are strings, verified_purchase is boolean, and each row is one customer review tied to a product ASIN.
+Question 2: Yes, .head() showing the first few rows was expected. It is less polished than the rich HTML table but makes it easier to quickly inspect the start of the dataset in plain text.
+Question 3: We used pandas display options (max_columns, width, and max_colwidth) and printed the first 10 rows with .head() so each review is easier to read on fewer wrapped lines.
+Question 4: The reviews dataset focuses on individual customer feedback (rating text, helpful votes, verified purchase). The metadata dataset describes products themselves with fields like title, average_rating, rating_number, price, store, categories, and other product attributes.
+Question 5: Most insightful analysis method .info() is the most insightful because it summarizes columns, non-null counts, and data types in one place, which helps spot missing values and type issues before cleaning.
+Question 6: Price and frequency trend Most highly rated products cluster at lower price points, so lower-priced items appear more frequently in this sample while higher prices are rarer.
+Question 7: There is no strong linear trend between price and average rating in this sample; both lower-priced and higher-priced products can receive high ratings.
